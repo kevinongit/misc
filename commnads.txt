@@ -1,0 +1,6 @@
+
+o Find commands
+  find . -type f -name "*.ts" -exec grep APP_BASE {} \;
+
+o cmder and clear screen
+  alias cls="echo -e '\0033\0143'"

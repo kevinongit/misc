@@ -1,0 +1,25 @@
+figlet -f "shadow" "NooWhat"
+
+BIG
+caligraphy
+chunky
+doom
+epic
+ogre
+pawp
+pebbles
+puffy
+rectangles
+roman
+rounded
+shadow
+slant
+small
+standard
+stella
+stop
+
+cooltext.com : 로고 생성
+https://logomakr.com/
+
+https://github.com/sindresorhus/awesome-nodejs

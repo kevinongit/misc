@@ -1,0 +1,37 @@
+mLab
+
+username : kevinoml / def90
+dbuser/dbuser001
+mongodb://dbuser:dbuser001@ds011258.mlab.com:11258/kevintestdb
+
+
+영화진흥위원회 오픈 API
+http://www.kobis.or.kr/kobisopenapi/homepg/user/openLogin.do
+nait/nait9090
+Key : 03247e3243346fde40e43e8f337a6a3f 
+
+
+https://apis.daum.net/contents/movie
+key : 1897b74982e1e8f01c2848ebe4a94cce
+ex) https://apis.daum.net/contents/movie?q="
+
+http://open.koreafilm.or.kr/
+nait/nait*9090
+
+// 유가정보
+	
+API Key : F050160913
+
+
+themoviedb.org (nait90/nait90, nait@nate.com)
+API Key : ddd9d004006ade13c9d13b30909b8786
+API Read Access Token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZGQ5ZDAwNDAwNmFkZTEzYzlkMTNiMzA5MDliODc4NiIsInN1YiI6IjU3ZGJhOTcxYzNhMzY4MDc4YjAwNWFiNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.b7UnIT0930NuqEQHI5eyNLGi6TAL9ShNOvHSZkkYjVY
+ex) https://api.themoviedb.org/3/movie/550?api_key=ddd9d004006ade13c9d13b30909b8786
+
+  profile path : 
+    jessica alba /yMiHrSyrv5u8qwfi3T8EuI4VPFk.jpg
+    http://image.tmdb.org/t/p/h632/yMiHrSyrv5u8qwfi3T8EuI4VPFk.jpg
+  procedure
+
+  movie info
+    http://api.themoviedb.org/3/movie/38002?api_key=ddd9d004006ade13c9d13b30909b8786&id=38002

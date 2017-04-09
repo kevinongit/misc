@@ -1,0 +1,36 @@
+
+http://blog.thoughtram.io/angular/2016/02/22/angular-2-change-detection-explained.html#smarter-change-detection
+
+ Application state change is caused by three things:
+  - Events : User events like click, change, input, submit
+  - XMLHttpRequests : e.g. when fetching data from a remote service
+  - Timers : setTimeout(), setInterval()
+
+ Immutable
+  : We can tell Angular to skip change detection for this component's tree if none of its input changed by setting the change detection strategy to OnPush.
+
+ Observable
+  : 
+
+  ChangeDetectorRef : makrForCheck()
+
+reducers, actions, single application store
+
+ store - database 'single source of truth'
+
+ reducer - is a pure function, accepting two arguments, the previous state and an action with a type and optional data(payload) associated with the event.
+           can be considered the tables in said database.
+
+ actions - we can communicate to our reducers when state needs to be updated.
+           all user interactions that would cause a state update must be expressed in the form of actions.
+           all relevant user events are dispatched as actions.
+
+* Dispatched  Action Pipeline
+  Dispatch -> Reducers -> New State -> Store
+
+The only way to modify state within a store application is by dispatching actions.
+
+reactive programming is programming with asynchronous data streams.
+
+* Projection
+Applying a function to a value and creating a new value is called a projection.

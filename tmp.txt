@@ -1,0 +1,615 @@
+
+configuration:
+{
+  "images": {
+    "base_url": "http://image.tmdb.org/t/p/",
+    "secure_base_url": "https://image.tmdb.org/t/p/",
+    "backdrop_sizes": [
+      "w300",
+      "w780",
+      "w1280",
+      "original"
+    ],
+    "logo_sizes": [
+      "w45",
+      "w92",
+      "w154",
+      "w185",
+      "w300",
+      "w500",
+      "original"
+    ],
+    "poster_sizes": [
+      "w92",
+      "w154",
+      "w185",
+      "w342",
+      "w500",
+      "w780",
+      "original"
+    ],
+    "profile_sizes": [
+      "w45",
+      "w185",
+      "h632",
+      "original"
+    ],
+    "still_sizes": [
+      "w92",
+      "w185",
+      "w300",
+      "original"
+    ]
+  },
+  "change_keys": [
+    "adult",
+    "air_date",
+    "also_known_as",
+    "alternative_titles",
+    "biography",
+    "birthday",
+    "budget",
+    "cast",
+    "certifications",
+    "character_names",
+    "created_by",
+    "crew",
+    "deathday",
+    "episode",
+    "episode_number",
+    "episode_run_time",
+    "freebase_id",
+    "freebase_mid",
+    "general",
+    "genres",
+    "guest_stars",
+    "homepage",
+    "images",
+    "imdb_id",
+    "languages",
+    "name",
+    "network",
+    "origin_country",
+    "original_name",
+    "original_title",
+    "overview",
+    "parts",
+    "place_of_birth",
+    "plot_keywords",
+    "production_code",
+    "production_companies",
+    "production_countries",
+    "releases",
+    "revenue",
+    "runtime",
+    "season",
+    "season_number",
+    "season_regular",
+    "spoken_languages",
+    "status",
+    "tagline",
+    "title",
+    "translations",
+    "tvdb_id",
+    "tvrage_id",
+    "type",
+    "video",
+    "videos"
+  ]
+}
+
+search : http://api.themoviedb.org/3/search/movie?api_key=ddd9d004006ade13c9d13b30909b8786&query=범죄의 재구성
+{
+  "page": 1,
+  "results": [
+    {
+      "poster_path": "/vTXKR32mhEvwYqYNHn9YL8U4cUD.jpg",
+      "adult": false,
+      "overview": "After being convicted for fraud, one month has passed since CHOI Chang-Hyuk's(PARK Shin-Yang) release from jail. But is time around he's got and elaborate plan cooked up. It's the biggest bank heist in history that'll make any thief have a wet dream. The st five thieves come together to form a team.",
+      "release_date": "2004-04-15",
+      "genre_ids": [
+        28,
+        10769
+      ],
+      "id": 38002,
+      "original_title": "범죄의 재구성",
+      "original_language": "ko",
+      "title": "The Big Swindle",
+      "backdrop_path": "/aAsJEJ6DXk3aJ8yaqblHJylLFuV.jpg",
+      "popularity": 1.000287,
+      "vote_count": 0,
+      "video": false,
+      "vote_average": 0
+    }
+  ],
+  "total_results": 1,
+  "total_pages": 1
+}
+
+# 291805 http://api.themoviedb.org/3/movie/291805/credits?api_key=ddd9d004006ade13c9d13b30909b8786&id=38002
+{
+  "id": 291805,
+  "cast": [
+    {
+      "cast_id": 3,
+      "character": "J. Daniel Atlas",
+      "credit_id": "5410226f0e0a26125f001522",
+      "id": 44735,
+      "name": "Jesse Eisenberg",
+      "order": 0,
+      "profile_path": "/1OpiTciXAVGfpPFMlPSiP9s8pJZ.jpg"
+    },
+    {
+      "cast_id": 2,
+      "character": "Merritt McKinney",
+      "credit_id": "5410223a0e0a2612550014fd",
+      "id": 57755,
+      "name": "Woody Harrelson",
+      "order": 1,
+      "profile_path": "/1ecdooAHICUhCZKKEKlFtccEmTU.jpg"
+    },
+    {
+      "cast_id": 1,
+      "character": "Dylan Rhodes",
+      "credit_id": "541022340e0a261264001519",
+      "id": 103,
+      "name": "Mark Ruffalo",
+      "order": 2,
+      "profile_path": "/w5yqDZo2IZV0vsrsMWUqloNiutb.jpg"
+    },
+    {
+      "cast_id": 4,
+      "character": "Jack Wilder",
+      "credit_id": "541022780e0a26125100158c",
+      "id": 54697,
+      "name": "Dave Franco",
+      "order": 3,
+      "profile_path": "/sWsW3mFSJzfbMUf43R0J8tY8BeW.jpg"
+    },
+    {
+      "cast_id": 5,
+      "character": "Thaddeus Bradley",
+      "credit_id": "541022860e0a26125100158e",
+      "id": 192,
+      "name": "Morgan Freeman",
+      "order": 4,
+      "profile_path": "/oGJQhOpT8S1M56tvSsbEBePV5O1.jpg"
+    },
+    {
+      "cast_id": 6,
+      "character": "Arthur Tressler",
+      "credit_id": "541022900e0a261255001506",
+      "id": 3895,
+      "name": "Michael Caine",
+      "order": 5,
+      "profile_path": "/vvj0JMSFpOajXCE46Hy4dyqSP2U.jpg"
+    },
+    {
+      "cast_id": 7,
+      "character": "Lula",
+      "credit_id": "543eb3f10e0a266f7d0029de",
+      "id": 51988,
+      "name": "Lizzy Caplan",
+      "order": 6,
+      "profile_path": "/twHeYwytmedhmv8HSHfTJOxqbTc.jpg"
+    },
+    {
+      "cast_id": 8,
+      "character": "Walter",
+      "credit_id": "546f8f5fc3a3682fa400284f",
+      "id": 10980,
+      "name": "Daniel Radcliffe",
+      "order": 7,
+      "profile_path": "/kMSMa5tR43TLMR14ahU1neFVytz.jpg"
+    },
+    {
+      "cast_id": 9,
+      "character": "Li",
+      "credit_id": "546f8fd3c3a3682f9a002c22",
+      "id": 17380,
+      "name": "Jay Chou",
+      "order": 8,
+      "profile_path": "/g2fvgW2IVgLHt988eYoAl0REILQ.jpg"
+    },
+    {
+      "cast_id": 12,
+      "character": "Allen Scott-Frank",
+      "credit_id": "551b6f8bc3a368767d001928",
+      "id": 513677,
+      "name": "Henry Lloyd-Hughes",
+      "order": 9,
+      "profile_path": "/cO8PvsG3vzIvcoXGwTs6DQqaz7m.jpg"
+    },
+    {
+      "cast_id": 13,
+      "character": "Natalie Austin",
+      "credit_id": "551b6f979251414af60019a4",
+      "id": 5411,
+      "name": "Sanaa Lathan",
+      "order": 10,
+      "profile_path": "/hNGPCe0q8prMkBebLzpi2vBwEWr.jpg"
+    },
+    {
+      "cast_id": 14,
+      "character": "Zoey Taylor",
+      "credit_id": "551b6fa59251413f6f000b9b",
+      "id": 84227,
+      "name": "Justine Wachsberger",
+      "order": 11,
+      "profile_path": "/sJH707TX3TohbXD5uO5n7NEj1sG.jpg"
+    },
+    {
+      "cast_id": 30,
+      "character": "Magician Assistant",
+      "credit_id": "5746733bc3a36808af000fa6",
+      "id": 1394335,
+      "name": "Alexandra Fraser",
+      "order": 12,
+      "profile_path": "/vEfvwbIx2I5VYYLCAjA8f7FDX05.jpg"
+    },
+    {
+      "cast_id": 31,
+      "character": "Agent Cowan",
+      "credit_id": "5746733cc3a368575300079b",
+      "id": 37204,
+      "name": "David Warshofsky",
+      "order": 13,
+      "profile_path": "/alPG9509uMDaTmzsxzz8Rz1ZMZf.jpg"
+    },
+    {
+      "cast_id": 32,
+      "character": "Bu Bu",
+      "credit_id": "5746733c9251415e5d001164",
+      "id": 10075,
+      "name": "Tsai Chin",
+      "order": 14,
+      "profile_path": "/2icB7ENqRRXxqzirAH3PupzTyqQ.jpg"
+    },
+    {
+      "cast_id": 33,
+      "character": "Owen Case",
+      "credit_id": "5746733c9251415e6c00108e",
+      "id": 1173231,
+      "name": "Ben Lamb",
+      "order": 15,
+      "profile_path": "/62FAz5SusltdiEBe1hMdSwvqCFz.jpg"
+    },
+    {
+      "cast_id": 35,
+      "character": "80s Pedestrian",
+      "credit_id": "5746733dc3a36806b3000efc",
+      "id": 1363049,
+      "name": "Lasco Atkins",
+      "order": 16,
+      "profile_path": "/ollrIPt4sG3vr9dQ8tNkN1JCtMJ.jpg"
+    },
+    {
+      "cast_id": 34,
+      "character": "Green Umbrella Girl",
+      "credit_id": "5746733cc3a36806a100126d",
+      "id": 1626067,
+      "name": "Amber Elizabeth",
+      "order": 17,
+      "profile_path": null
+    },
+    {
+      "cast_id": 29,
+      "character": "FBI Agent",
+      "credit_id": "5746733b9251415f8c00102c",
+      "id": 1379281,
+      "name": "Alexander Cooper",
+      "order": 18,
+      "profile_path": null
+    },
+    {
+      "cast_id": 36,
+      "character": "New Year's Eve Reveller",
+      "credit_id": "5746733d9251415e72001029",
+      "id": 1547894,
+      "name": "Judit Novotnik",
+      "order": 19,
+      "profile_path": null
+    },
+    {
+      "cast_id": 39,
+      "character": "Lionel Shrike",
+      "credit_id": "57b817a09251417bee004c4e",
+      "id": 40687,
+      "name": "Richard Laing",
+      "order": 20,
+      "profile_path": null
+    }
+  ],
+  "crew": [
+    {
+      "credit_id": "55a77e329251411e11001568",
+      "department": "Production",
+      "id": 135,
+      "job": "Producer",
+      "name": "Bobby Cohen",
+      "profile_path": null
+    },
+    {
+      "credit_id": "541022260e0a261267001552",
+      "department": "Directing",
+      "id": 54507,
+      "job": "Director",
+      "name": "Jon M. Chu",
+      "profile_path": "/h80Zf0GR4jdmURx32hjvckJE8o5.jpg"
+    },
+    {
+      "credit_id": "551b6f5ac3a368767900180c",
+      "department": "Writing",
+      "id": 84435,
+      "job": "Screenplay",
+      "name": "Pete Chiarelli",
+      "profile_path": null
+    },
+    {
+      "credit_id": "551b6f669251414af6001994",
+      "department": "Writing",
+      "id": 9612,
+      "job": "Screenplay",
+      "name": "Ed Solomon",
+      "profile_path": "/dfhHU0NT1mtEhfuPZgNSHe1N1lH.jpg"
+    },
+    {
+      "credit_id": "55a77e499251411e0b001577",
+      "department": "Production",
+      "id": 15345,
+      "job": "Producer",
+      "name": "Alex Kurtzman",
+      "profile_path": "/5cO0ug7TtRqzbYU4ukKzUzfuUk.jpg"
+    },
+    {
+      "credit_id": "55a77e659251411e0b00157a",
+      "department": "Production",
+      "id": 15346,
+      "job": "Producer",
+      "name": "Roberto Orci",
+      "profile_path": "/5SNw3lnRD6UQJFy52IH3MdFGIrs.jpg"
+    },
+    {
+      "credit_id": "55a77e80c3a368300500165b",
+      "department": "Sound",
+      "id": 6041,
+      "job": "Music",
+      "name": "Brian Tyler",
+      "profile_path": "/22QWiNJj03amY6GT1QPUs7dbdcB.jpg"
+    },
+    {
+      "credit_id": "55a77e93c3a3682ffc00145d",
+      "department": "Camera",
+      "id": 9573,
+      "job": "Director of Photography",
+      "name": "Peter Deming",
+      "profile_path": null
+    },
+    {
+      "credit_id": "55a77ea69251411e18001483",
+      "department": "Production",
+      "id": 3965,
+      "job": "Casting",
+      "name": "Deborah Aquila",
+      "profile_path": "/yvakED7xYlZNyKWjdu6tCrQ0DFZ.jpg"
+    },
+    {
+      "credit_id": "55a77ebb9251411e140015bb",
+      "department": "Art",
+      "id": 1487710,
+      "job": "Art Direction",
+      "name": "Martin Foley",
+      "profile_path": null
+    },
+    {
+      "credit_id": "55a77ecfc3a3683005001661",
+      "department": "Art",
+      "id": 1334489,
+      "job": "Art Direction",
+      "name": "Dominic Masters",
+      "profile_path": null
+    },
+    {
+      "credit_id": "55a77ee1c3a3682fff0015e4",
+      "department": "Art",
+      "id": 1487711,
+      "job": "Art Direction",
+      "name": "Remo Tozzi",
+      "profile_path": null
+    },
+    {
+      "credit_id": "570bdb1cc3a36802b00004ee",
+      "department": "Art",
+      "id": 29609,
+      "job": "Supervising Art Director",
+      "name": "Stuart Kearns",
+      "profile_path": null
+    },
+    {
+      "credit_id": "55a77f0d9251411e060015c5",
+      "department": "Art",
+      "id": 1327762,
+      "job": "Set Decoration",
+      "name": "Judy Farr",
+      "profile_path": null
+    },
+    {
+      "credit_id": "55a77f2092514125da0011cb",
+      "department": "Costume & Make-Up",
+      "id": 6688,
+      "job": "Costume Design",
+      "name": "Anna B. Sheppard",
+      "profile_path": "/4jnpgv8GFKhFwwPnMMSRygQ7mEH.jpg"
+    },
+    {
+      "credit_id": "55a77f4d92514109da000650",
+      "department": "Directing",
+      "id": 1389548,
+      "job": "Script Supervisor",
+      "name": "Anna Worley",
+      "profile_path": null
+    },
+    {
+      "credit_id": "57b8110c9251414295006947",
+      "department": "Editing",
+      "id": 181856,
+      "job": "Editor",
+      "name": "Stan Salfas",
+      "profile_path": null
+    },
+    {
+      "credit_id": "57b81132c3a3680ab50089f0",
+      "department": "Writing",
+      "id": 9612,
+      "job": "Story",
+      "name": "Ed Solomon",
+      "profile_path": "/dfhHU0NT1mtEhfuPZgNSHe1N1lH.jpg"
+    }
+  ]
+}
+
+movie/credit : http://api.themoviedb.org/3/movie/38002/credits?api_key=ddd9d004006ade13c9d13b30909b8786&id=38002
+{
+  "id": 38002,
+  "cast": [
+    {
+      "cast_id": 13,
+      "character": "Seo In-Keong",
+      "credit_id": "54280415c3a3680b280023f0",
+      "id": 37939,
+      "name": "Yeom Jeong-Ah",
+      "order": 0,
+      "profile_path": "/xvAY1N4tt87QBmeX5gQfEy37bt1.jpg"
+    },
+    {
+      "cast_id": 12,
+      "character": "Choi Chang-Hyok",
+      "credit_id": "53c149170e0a2615820091ac",
+      "id": 1244787,
+      "name": "Park Shin-yang",
+      "order": 1,
+      "profile_path": "/h8Qvt873Nosqo2tAqCvBu8v13Ac.jpg"
+    },
+    {
+      "cast_id": 6,
+      "character": "Eol-mae",
+      "credit_id": "52fe46879251416c91057647",
+      "id": 138509,
+      "name": "Lee Mun-shik",
+      "order": 3,
+      "profile_path": "/3PwloUd9Jym9k2SqTctOr76m5B8.jpg"
+    },
+    {
+      "cast_id": 7,
+      "character": "Swallow",
+      "credit_id": "52fe46879251416c9105764b",
+      "id": 79574,
+      "name": "Park Won-sang",
+      "order": 4,
+      "profile_path": "/ZsPKwpremjHaI9mzLjOHWGLT2w.jpg"
+    },
+    {
+      "cast_id": 8,
+      "character": "Gas",
+      "credit_id": "52fe46879251416c9105764f",
+      "id": 123820,
+      "name": "Kim Sang-ho",
+      "order": 5,
+      "profile_path": "/6DKKFYu3qQFiKQLyTYnhhEBIkVO.jpg"
+    },
+    {
+      "cast_id": 9,
+      "character": "Detective Lee",
+      "credit_id": "52fe46879251416c91057653",
+      "id": 75912,
+      "name": "Kim Yun-Seok",
+      "order": 6,
+      "profile_path": "/k928qAOSI6kX0KL37pBZ8RvIN0c.jpg"
+    },
+    {
+      "cast_id": 10,
+      "character": "",
+      "credit_id": "52fe46879251416c91057657",
+      "id": 87897,
+      "name": "Yoo Sun",
+      "order": 7,
+      "profile_path": "/7yFlXr21FEQ2NbF6XNKE38bN26t.jpg"
+    },
+    {
+      "cast_id": 11,
+      "character": "Mr. Kim",
+      "credit_id": "5319c27bc3a3685c4a002ff7",
+      "id": 947287,
+      "name": "Baek Yun-Shik",
+      "order": 8,
+      "profile_path": "/hnrSJ1TKFbbCAhihFMqy28vWQHT.jpg"
+    },
+    {
+      "cast_id": 14,
+      "character": "Squad leader Cha",
+      "credit_id": "564f4742925141645f000028",
+      "id": 87090,
+      "name": "Cheon Ho-Jin",
+      "order": 9,
+      "profile_path": "/o3qqszP1yoWxUtdCsJ8t5um1MyH.jpg"
+    }
+  ],
+  "crew": [
+    {
+      "credit_id": "52fe46879251416c91057633",
+      "department": "Directing",
+      "id": 119337,
+      "job": "Director",
+      "name": "Dong-hun Choi",
+      "profile_path": "/4RnaMAwF3Ozk80gC1wp4Vb9s9qY.jpg"
+    }
+  ]
+}
+
+movid/id : http://api.themoviedb.org/3/movie/38002?api_key=ddd9d004006ade13c9d13b30909b8786&id=38002
+{
+  "adult": false,
+  "backdrop_path": "/aAsJEJ6DXk3aJ8yaqblHJylLFuV.jpg",
+  "belongs_to_collection": null,
+  "budget": 0,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 10769,
+      "name": "Foreign"
+    }
+  ],
+  "homepage": "",
+  "id": 38002,
+  "imdb_id": "tt0402842",
+  "original_language": "ko",
+  "original_title": "범죄의 재구성",
+  "overview": "After being convicted for fraud, one month has passed since CHOI Chang-Hyuk's(PARK Shin-Yang) release from jail. But this me around he's got and elaborate plan cooked up. It's the biggest bank heist in history that'll make any thief have a wet dream. The best ve thieves come together to form a team.",
+  "popularity": 0.000287,
+  "poster_path": "/vTXKR32mhEvwYqYNHn9YL8U4cUD.jpg",
+  "production_companies": [],
+  "production_countries": [
+    {
+      "iso_3166_1": "KR",
+      "name": "South Korea"
+    }
+  ],
+  "release_date": "2004-04-15",
+  "revenue": 0,
+  "runtime": 116,
+  "spoken_languages": [
+    {
+      "iso_639_1": "ko",
+      "name": "한국어/조선말"
+    }
+  ],
+  "status": "Released",
+  "tagline": "",
+  "title": "The Big Swindle",
+  "video": false,
+  "vote_average": 0,
+  "vote_count": 0
+}

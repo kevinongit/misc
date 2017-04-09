@@ -1,0 +1,50 @@
+﻿
+(2016/09/11)
+  - basic git commands
+    git commit .
+    git push origin master
+
+  	git status
+  	git log
+
+  	# when detached from origin/master
+  	  https://cmatskas.com/merge-detached-head-back-to-originmaster-git/
+  	  $git checkout –b temp #makes a new branch from current detached HEAD
+  	  $git branch –f master temp #update master to point to the new <temp> branch
+  	  $git branch –d temp #delete the <temp> branch
+  	  $git push origin master #push the re-established history
+
+  - 'bower install' should be performed in root directory(/getmovie), or bunch of errors comes.
+
+(2016/09/16)
+  - IE caching problem : refer to FIX 20160916 in app.js (.config($httpProvider))
+
+(2016/10/03) angular2 fountain
+  - error : cannot find name 'module' 
+    (solution) http://stackoverflow.com/questions/36700693/typescript-error-in-angular2-code-cannot-find-name-module
+     
+  - <img src="local file .jpg"> loading --> ERROR in *.jpg Module parse failed.
+    (solution) https://github.com/FountainJS/generator-fountain-webapp/issues/98
+
+     typings install dt~node --global --save
+
+  - Error after typings install :
+     ERROR in d:\mylab\fountain\typings\globals\require\index.d.ts
+     (367,13): error TS2403: Subsequent variable declarations must have the same type.  Variable 'require' must be of type 'NodeRequire', but here has type 'Require'.
+     (Solution) http://stackoverflow.com/questions/38727442/typescript-error-on-compilation-with-webpack
+      I commented the require line in index.d.ts
+
+(2016/10/07) angular2 css loading 
+  - Expected 'styleUrls' to be an array of strings
+  (solution) styles: [ require('./movies.component.scss').toString() ];
+    https://github.com/gajus/to-string-loader
+
+(2016/11/03)
+  - 기존 프로젝트를 git으로 올리기
+    https://blog.chann.kr/upload-existing-project-on-github-using-remote/
+
+ git init
+ git remote add getFountain https://github.com/nait90/getFountain.git
+ git add .
+ git commit -m "getFountain backup"
+ git push --set-upstream getFountain master
