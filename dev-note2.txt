@@ -2,3 +2,12 @@
 o nav-header-component : navbar dropdown not working
   - the reason for not working of navbar dropdown in nav-header-component is just not including the jquery.js and bootstrap.js.
   - keep the order : boostrap.css, jquery.js, and bootstrap.js
+
+(2017.06.04)
+to use Object.prototype in Typescript : https://stackoverflow.com/questions/12766117/how-does-prototype-extend-on-typescript
+
+(2017.08.10)
+# add 'node_modules' to .gitignore file
+git rm -r --cached node_modules
+git commit -m 'remove the now ignored directory node_modules'
+git push
