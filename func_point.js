@@ -1,6 +1,11 @@
 
-const input1 = ['카드', '포인트', '보험']
 
+const input1 = ['카드', '포인트', '보험']
+const fs = require('fs')
+
+const content = fs.readFileSync('./kwd.input', 'utf8')
+const input = content.split(/[\s,]+/)
+console.log('input : ', input)
 
 function getAction(category = '') {
   let action = {}
@@ -20,7 +25,7 @@ function getAction(category = '') {
 
 let result = []
 const { type, fp } = getAction()
-input1.forEach(ele1 => {
+input.forEach(ele1 => {
   type.forEach((ele2, i) => {
     let item = {}
     item.content = `${ele1} ${ele2}`
